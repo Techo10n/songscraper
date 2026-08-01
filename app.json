@@ -16,7 +16,7 @@
     },
     "ios": {
       "supportsTablet": true,
-      "buildNumber": "1",
+      "buildNumber": "2",
       "bundleIdentifier": "com.techolon.songscraper",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
