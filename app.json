@@ -2,7 +2,9 @@
   "expo": {
     "name": "SongScraper",
     "slug": "songscraper",
-    "scheme": ["songscraper"],
+    "scheme": [
+      "songscraper"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -35,13 +37,21 @@
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-      ["expo-router", { "origin": "songscraper://" }],
+      [
+        "expo-router",
+        {
+          "origin": "songscraper://"
+        }
+      ],
       "expo-secure-store",
       "expo-web-browser"
     ],
     "extra": {
       "router": {
         "origin": "songscraper://"
+      },
+      "eas": {
+        "projectId": "bf95676d-f6c1-4597-9525-05655b817e30"
       }
     },
     "owner": "techolon"
